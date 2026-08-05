@@ -1,0 +1,6 @@
+{
+  "name": "ChronoQuest Engine",
+  "description": "An infinite choose-your-own-adventure RPG driven by Gemini AI with real-world daily task integration, community quests, and consistent visual storytelling.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

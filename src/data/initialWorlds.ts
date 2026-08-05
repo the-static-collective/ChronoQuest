@@ -1,0 +1,87 @@
+import { GameWorldPreset, RealWorldHabit } from '../types';
+
+export const WORLD_PRESETS: GameWorldPreset[] = [
+  {
+    id: 'ethereal_fantasy',
+    name: 'Sanctuary of Aethelgard',
+    tagline: 'High Arcane Fantasy & Sacred Runes',
+    description: 'A floating archipelago held together by ancient leylines. Mages and Paladins tend to the Sacred Flame while dark corruption seeps into forgotten dungeons.',
+    artStyleAnchor: 'Luminous high fantasy digital painting, intricate magical runes, vibrant ethereal watercolors, detailed fantasy armor, dramatic rim lighting',
+    defaultArchetypes: ['Runeweaver Mage', 'Dawnbringer Paladin', 'Whisperer Rogue'],
+    initialLocation: 'The Grand Citadel of Sunspire',
+    icon: 'Wand2',
+  },
+  {
+    id: 'cyberpunk_spire',
+    name: 'Neo-Aethel Spire 2099',
+    tagline: 'Neon Cyberpunk & Neural Alchemy',
+    description: 'A towering megacity shrouded in synth-rain. Netrunners and Cyber-Augs battle rogue AI protocols while trading neural memory fragments.',
+    artStyleAnchor: 'Stylized cyberpunk digital illustration, vibrant glowing neon cyan and magenta, atmospheric dark rainy city streets, sharp vector lines, high contrast',
+    defaultArchetypes: ['Neural Netrunner', 'Street Samurai', 'Tech-Alchemist'],
+    initialLocation: 'Sector 7 Synth-Market',
+    icon: 'Cpu',
+  },
+  {
+    id: 'solarpunk_frontier',
+    name: 'Verdant Eldritch Wilds',
+    tagline: 'Solar-punk & Ancient Overgrown Ruins',
+    description: 'A harmonious civilization powered by solar resonance crystals and ancient bio-tech, bordering uncharted eldritch forests.',
+    artStyleAnchor: 'Vibrant solar-punk art style, lush overgrown mossy ruins, golden hour sunlight, brass mechanical automatons, soft magical atmosphere',
+    defaultArchetypes: ['Resonance Warden', 'Bio-Forge Engineer', 'Sylvan Scout'],
+    initialLocation: 'The Living Canopy of Sol-Haven',
+    icon: 'Leaf',
+  },
+  {
+    id: 'gothic_steampunk',
+    name: 'Clockwork Ravencroft',
+    tagline: 'Gothic Steampunk & Mechanical Occult',
+    description: 'Victorian spires engulfed in thick copper fog. Automaton gargoyles guard steam-driven cathedral archives.',
+    artStyleAnchor: 'Gothic steampunk concept art, copper brass clockwork gears, dark moody Victorian aesthetic, amber lanterns, fine line art',
+    defaultArchetypes: ['Clockwork Engineer', 'Occult Investigator', 'Steam-Knight'],
+    initialLocation: 'The Brass Clocktower Vaults',
+    icon: 'Cog',
+  },
+];
+
+export const DEFAULT_REAL_WORLD_HABITS: RealWorldHabit[] = [
+  {
+    id: 'habit_water',
+    taskName: 'Drink a full glass of water',
+    category: 'health',
+    frequency: 'daily',
+    completed: false,
+    storyMapping: 'Consume the Elixir of Pure Clarity, purging minor toxins and boosting Willpower.',
+  },
+  {
+    id: 'habit_stretch',
+    taskName: 'Do 5 minutes of stretching / posture break',
+    category: 'health',
+    frequency: 'daily',
+    completed: false,
+    storyMapping: 'Perform the Kinetic Alignment Stance, fortifying Armor Class and agility.',
+  },
+  {
+    id: 'habit_focus',
+    taskName: 'Complete 25 minutes of deep focus work / study',
+    category: 'productivity',
+    frequency: 'daily',
+    completed: false,
+    storyMapping: 'Transcribe runes into the Arcane Ledger, deciphering ancient secrets.',
+  },
+  {
+    id: 'habit_walk',
+    taskName: 'Walk 2,000 steps or take a brisk fresh air walk',
+    category: 'health',
+    frequency: 'daily',
+    completed: false,
+    storyMapping: 'Scout the outer boundary perimeters, uncovering hidden realm paths.',
+  },
+  {
+    id: 'habit_kindness',
+    taskName: 'Send an encouraging message to a friend or help a neighbor',
+    category: 'social',
+    frequency: 'daily',
+    completed: false,
+    storyMapping: 'Cast a Beacon of Resonance, uplifting a fellow traveler across realms.',
+  },
+];
